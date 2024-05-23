@@ -1,4 +1,5 @@
-# PosMarker
+# Background adaptive PosMarker based on online generation and detection for locating watermarked regions in photographs
 
-## Description
-Background adaptive PosMarker based on online generation and detection for locating watermarked regions in photographs
+## Introduction
+Invisible watermarks can be embedded within screens to track unauthorized camera recordings. Locating the watermarked region in photographs is necessary so as to correct the geometric distortion before revealing the embedded information from it. To strike a balance between imperceptibility and locating efficiency in practice, this paper proposes a novel background adaptive positioning watermark(PosMarker), which serves the purpose of indicating the watermarked region within photographs. Taking a traditional adaptive watermarking method as the baseline, we propose an online method that incorporates a generator and detector into a single end-to-end pipeline. Through adversarial training, the two modules are jointly optimized, resulting in improved visual quality and detection precision. Extensive experiments based on two camera-shooting resilient watermarking approaches demonstrate that our PosMarker-based method achieves superior locating performance over other SOTA methods, which also leads to higher decoding accuracy.
+
